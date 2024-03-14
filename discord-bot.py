@@ -2,9 +2,10 @@ import discord
 import asyncio
 import requests
 import time
+import os
 
 # Your bot's token
-TOKEN = 'MTIxNzYzOTgxMTAyMDQ4ODgxNA.GeduwJ.E2Za1IXspUk1fhanIfvsVKm2zFrA0AHvkwsaug'
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 # Channel ID where you want to send the message
 CHANNEL_ID = 1217642237647785994
