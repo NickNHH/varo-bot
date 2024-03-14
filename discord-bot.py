@@ -8,7 +8,7 @@ import os
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 # Channel ID where you want to send the message
-CHANNEL_ID = 1217550786049871925
+CHANNEL_ID = 1217642237647785994
 
 # Define the intents
 intents = discord.Intents.default()
