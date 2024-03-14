@@ -36,10 +36,10 @@ async def log_players():
                 await channel.send(message)
             else:
                 print(f"Channel with ID {CHANNEL_ID} not found.")
-        await asyncio.sleep(10)  # Wait for 10 minutes
+        await asyncio.sleep(60)  # Wait for 10 minutes
 
 def fetch_players():
-    url = "https://api.mcsrvstat.us/3/play.cidermc.com"
+    url = "https://api.mcsrvstat.us/3/Mine.CraftXp.Net"
     print(f"Fetching players from {url}...")
     try:
         response = requests.get(url)
