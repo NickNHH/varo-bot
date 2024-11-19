@@ -1,1 +1,1 @@
-worker: ./test.sh
+worker: python test.py
